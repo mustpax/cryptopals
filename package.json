@@ -1,0 +1,18 @@
+{
+  "name": "cryptopals",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mustpax/cryptopals",
+  "author": "Mustafa Amplitude <moose@amplitude.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec jasmine",
+    "test": "jasmine"
+  },
+  "dependencies": {
+    "aes-js": "^3.1.2",
+    "jasmine": "^3.6.4",
+    "nodemon": "^2.0.7",
+    "underscore": "^1.12.0"
+  }
+}
